@@ -3,3 +3,4 @@ while True:
     print("2 - Ввведите второе число: ")
     break
 
+
