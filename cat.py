@@ -1,14 +1,14 @@
 class Cat:
-def __init__(self, name, age):
+   def __init__(self, name, age):
         self.name = name #Имя кота
 
-def meow(self):
+   def meow(self):
         print(f"{self.name} says: Мяу!")
 
-def eat(self):
+   def eat(self):
         print(f"{self.name} ест рыбу")
 
-def sleep(self):
+   def sleep(self):
         print(f"{self.name} спит")
 
 

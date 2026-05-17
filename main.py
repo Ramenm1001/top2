@@ -1,4 +1,6 @@
+import cat
 
+mycat = cat.Cat()
 
 while True:
     print("1 - покормить")
@@ -9,13 +11,10 @@ while True:
 
     chois = input("Выбирите действие что вы хотите сделать с котом: ")
     if chois == "1":
-        print(" ")
-        pass
+        mycat.eat()
 
     elif chois == "2":
-        print(" ")
-        pass
+        mycat.sleep()
 
     elif chois == "3":
-        print("Вы успешно выполнили все задание на сегодня с котом")
-        break
+        mycat.meow()
