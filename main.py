@@ -1,35 +1,17 @@
-print("Hello worl1232123d")
-privet="Hello world"
-name=input("Введите имя")
-print(privet, name)
-import random
+while True:
+    print("1 - покормить")
+    print("2 - уложить спать")
+    print("3 - выйти из программы")
 
+    chois = input("Выбирите действие что вы хотите сделать с котом: ")
+    if chois == "1":
+        print(" ")
+        pass
 
-class APIConnection:
-    def __init__(self, retries=5):
-        self.retries = retries
-        self.success = False
+    elif chois == "2":
+        print(" ")
+        pass
 
-    def __enter__(self):
-        for i in range(self.retries):
-            x = random.randint(1, 3)
-
-            if x == 1:
-                print("ok")
-                self.success = True
-                return self
-            else:
-                print("fail")
-
-        raise Exception("Не удалось подключиться после нескольких попыток")
-
-    def __exit__(self, exc_type, exc_value, traceback):
-        if self.success:
-            print("Соединение закрыто")
-
-        if exc_type:
-            print(f"Ошибка: {exc_value}")
-
-        return False
-
-    print("Hello World")
+    elif chois == "3":
+        print("Вы успешно выполнили все задание на сегодня с котом")
+        break
