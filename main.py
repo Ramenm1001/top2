@@ -18,3 +18,11 @@ while True:
 
     elif chois == "3":
         mycat.meow()
+
+    elif chois == "4":
+        pass
+
+    elif chois == "5":
+        break
+
+
