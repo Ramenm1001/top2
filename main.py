@@ -26,3 +26,4 @@ class APIConnection:
             print(f"Ошибка: {exc_value}")
 
         return False
+
