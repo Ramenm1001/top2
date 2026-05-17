@@ -3,6 +3,7 @@ name=input("Введите имя")
 print(privet, name)
 import random
 
+
 class APIConnection:
     def __init__(self, retries=5):
         self.retries = retries
