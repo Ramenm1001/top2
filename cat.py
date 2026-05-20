@@ -1,6 +1,6 @@
 class Cat:
    def __init__(self, name, age):
-        self.name = name #Имя кота
+        self.name = name.title #Имя кота
 
    def meow(self):
         print(f"{self.name} says: Мяу!")
@@ -11,8 +11,5 @@ class Cat:
    def sleep(self):
         print(f"{self.name} спит")
 
-
-
-
-
-
+   def play (self):
+       print (f"{self.name} играет")
